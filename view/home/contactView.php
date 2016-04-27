@@ -1,0 +1,26 @@
+
+        <!-- page content -->
+        <div class="col-md-9">
+          <div class="well pageContent">
+            <form method="post" action="<?php print APP_DOC_ROOT . '/home/contact'; ?>">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <label for="comments">Comments</label>
+                <textarea class="form-control" rows="6" id="comments" name="comments" placeholder="Comments"></textarea>
+              </div>
+              <button type="submit" name="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- end page content -->

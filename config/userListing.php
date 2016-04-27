@@ -20,8 +20,8 @@
             ),
             // Demo Admin User
             array (
-                'username'  => 'admin',
-                'password'  => 'iddqd',
+                'username'  => 'jeremy',
+                'password'  => 'menke',
                 'email'     => 'janesmith@gmail.com',
                 'lastName'  => 'Smith',
                 'firstName' => 'Jane',
